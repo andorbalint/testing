@@ -1,0 +1,11 @@
+[
+  "test/test_calculator.py::test_addition",
+  "test/test_calculator.py::test_division",
+  "test/test_calculator.py::test_division_by_zero",
+  "test/test_calculator.py::test_integer_division",
+  "test/test_calculator.py::test_multiplication",
+  "test/test_calculator.py::test_subtraction",
+  "test/test_math.py::test_sqrt",
+  "test_math.py::test_greater",
+  "test_math.py::test_sqrt"
+]
