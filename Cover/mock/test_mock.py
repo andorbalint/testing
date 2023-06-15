@@ -9,6 +9,7 @@ def test_read_only_numbers():
     fake_api.get_data.return_value = test_data #  get_data method mocking
     #use fake api
     #fake api
+    #change added
     with patch('example_mock.API', fake_api):
         # patch replaces the original object and context manager defines the scope of use of the mock
         result = get_only_numbers()
