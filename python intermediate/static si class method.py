@@ -54,7 +54,7 @@ class Tiger(Animal):
 
         """
 
-    if my_tiger_speed >20
+    if my_tiger_speed > 20
         return 20
     else return speed
 
