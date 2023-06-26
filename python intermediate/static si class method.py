@@ -54,10 +54,6 @@ class Tiger(Animal):
 
         """
 
-    if my_tiger_speed > 20
-        return 20
-    else return speed
-
     @classmethod
     def create_from_string(cls, custom_string):
 
