@@ -104,11 +104,24 @@ import csv
 
 if __name__=="__main__":
 
-      file = open("employees.csv","r")
-      reader = csv.reader(file)
-      next(reader)
-      for row in reader:
-         print(row)
+      # file = open("employees.csv","r")
+      # reader = csv.reader(file)
+      # next(reader)
+      # for row in reader:
+      #    print(row)
+
+      file = open("empoyees2.txt","w", newline="")
+
+      writer = csv.writer(file)
+
+      header = ["name", "age"]
+
+      writer.writerow(header)
+      writer.writerow(["ion",20])
+
+      for _ in range(3):
+          my_input = input("Row:").split()
+          writer.writerow(my_input)
 
       file.close()
 
