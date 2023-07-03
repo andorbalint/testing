@@ -45,10 +45,71 @@
 #     print(my_new_dict)
 
 
-import json
+# import json
+#
+#
+# exercises = {
+#    "right_side":[
+#       3,
+#       5,
+#       3,
+#       6,
+#       4,
+#       2,
+#       3,
+#       6,
+#       8,
+#       4,
+#       3,
+#       2
+#    ],
+#    "left_side":[
+#       1.2,
+#       4.3,
+#       5.4,
+#       6.9,
+#       9.9,
+#       7.2
+#    ]
+# }
+#
+# # file = open("my_students.txt", "r")
+# file = open("json_exercisess.txt","r")
+#
+# '''
+#     media right_side
+#     media left_side
+#     media totala
+# '''
+#
+# ex = json.load(file)
+# file.close()
+#
+# print(ex["right_side"])
+#
+# e = sum(ex["right_side"])/len(ex["right_side"])
+#
+# print(e)
+#
+#
+# print(ex["left_side"])
+#
+# e = sum(ex["left_side"])/len(ex["left_side"])
+#
+# print(e)
 
-exercises = ("right side left side jason exercises")
 
-file = open("right side left side jason exercises")
-json.open("right side left side jason exercises")
+import csv
+
+
+if __name__=="__main__":
+
+      file = open("employees.csv","r")
+      reader = csv.reader(file)
+      next(reader)
+      for row in reader:
+         print(row)
+
+      file.close()
+
 

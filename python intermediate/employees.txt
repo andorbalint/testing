@@ -1,0 +1,4 @@
+name,salary,age
+ion,9000,20
+alex,8000,19
+cristi,1000,32
