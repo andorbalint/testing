@@ -1,0 +1,20 @@
+{"student1": 19, "student2": 29}
+
+[
+    {
+        "nume": "Ion",
+        "varsta": 20,
+        "grades": [10, 2, 9]
+    },
+
+    {
+        "nume": "Alex",
+        "varsta": 21
+    }
+]
+
+file = open("my_first_json.txt", "r")
+my_dict = json.load(file)
+file.close()
+
+print(my_dict)
